@@ -304,6 +304,10 @@ form.sign-in-form {
     transition: 1s 0.8s ease-in-out;
   }
 
+  .recover {
+    top: 65%;
+  }
+
   .signin-signup,
   .container.sign-up-mode .signin-signup {
     left: 50%;
