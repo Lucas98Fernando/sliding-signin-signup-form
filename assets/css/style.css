@@ -11,6 +11,15 @@ input {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+a:hover {
+  color: #5995fd;
+}
+
 .container {
   position: relative;
   width: 100%;
