@@ -307,7 +307,7 @@ form.sign-in-form {
     transition: 1s 0.8s ease-in-out;
   }
 
-  .recover {
+  .recover, .confirmation {
     top: 65%;
   }
 
@@ -435,4 +435,16 @@ form.sign-in-form {
     bottom: 28%;
     left: 50%;
   }
+}
+
+.confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fa-check-circle {
+  font-size: 70px;
+  color: #28a745;
 }
