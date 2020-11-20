@@ -307,7 +307,8 @@ form.sign-in-form {
     transition: 1s 0.8s ease-in-out;
   }
 
-  .recover, .confirmation {
+  .recover,
+  .confirmation {
     top: 65%;
   }
 
@@ -447,4 +448,60 @@ form.sign-in-form {
 .fa-check-circle {
   font-size: 70px;
   color: #28a745;
+  position: relative;
+  animation-name: confirm-animation;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+}
+
+.rocket {
+  position: relative;
+  animation-name: left-right;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes left-right {
+  0% {
+    left: -500px;
+    top: 0;
+  }
+
+  100% {
+    left: 0px;
+    top: 0;
+  }
+}
+
+@keyframes confirm-animation {
+  0% {
+    left: 0px;
+    top: 0px;
+    font-size: 70px;
+  }
+
+  25% {
+    left: 0px;
+    top: 0px;
+    font-size: 50px;
+  }
+
+  50% {
+    left: 0px;
+    top: 0px;
+    font-size: 70px;
+  }
+
+  75% {
+    left: 0px;
+    top: 0px;
+    font-size: 50px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+    font-size: 70px;
+  }
 }
